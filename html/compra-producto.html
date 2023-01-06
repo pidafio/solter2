@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../estilo.css">
+    <link rel="stylesheet" href="../css/compra-producto.css">
+    <link rel="stylesheet" href="../css/barraDesplegable.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a8c2996f32.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="Encabezado__Menu">
+            <h3 class="Texto__Encabezado">Expertos en climatización</h3>
+        </div>
+        <div class="Menu__Container">
+        
+            <ul class="icon__Menu">
+                <div class="Btn__Menu"><i class="fa-solid fa-bars"></i></div>
+            </ul>
+            <div class="Logo__Empresa"><a href="../index.html" ><img class="Logo__Solter" src="../img/logo/logoSolter.png" ></a></div>
+            <ul class="Items__Menu">
+                <li class="Productos__Menu"><a href="#" class="Texto__Desplegable">Nosotros</a></li>
+                <li class="Productos__Menu"><a href="#" class="Texto__Desplegable Btn-Submenu">Productos</a>
+                    <ul class="Submenu__Productos">
+                        <li class="Productos__Menu"><a href="../html/Catalogo-Producto.html" class="Texto__Desplegable Desplegado">Aires Acondicionados</a></li>
+                        <li class="Productos__Menu"><a href="../html/Catalogo-Producto.html" class="Texto__Desplegable Desplegado">Equipos Centrales</a></li>
+                        <li class="Productos__Menu"><a href="../html/Catalogo-Producto.html" class="Texto__Desplegable Desplegado"> repuestos</a></li>
+                    </ul>
+                </li>
+                <li class="Productos__Menu"><a href="#" class="Texto__Desplegable">Contacto</a></li>        
+                </ul>
+               <ul class="Btn__Barra">
+                    <div class="Btn__icon Buscar"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <div class="Btn__icon Carrito"><i class="fa-solid fa-cart-shopping"><h1 class="notificacion"></h1></i></div>
+                    <div class="Btn__icon Usuario"><i class="fa-solid fa-circle-user"></i></div>
+                    <!-- <div class="Btn__icon Carrito"><i class="fa-solid fa-cart-shopping notificacion"></i></div> -->
+            
+               </ul>
+            </div>
+               <div class="Separador__menu"></div>
+            
+    </header>
+
+    <main>
+        <section class="Galeria__Container">
+
+                <article class="Galeria">
+                  <div class="Galeria__Imagen-Container">
+                       <div class="Btn__Siguiente"> > </div>
+                       <div class="Btn__Previo"> < </div>
+                  </div>
+                
+
+                <div class="galeria__Miniaturas">
+                    <img id="1" class="Galeria__Miniatura" src="#" alt="">
+                    <img id="2" class="Galeria__Miniatura" src="#" alt="">
+                    <img id="3" class="Galeria__Miniatura" src="#" alt="">
+                </div>
+                </article>
+
+                <article class="Descripcion">
+                    <h2 class="Descripcion__Marca">sansung</h2>
+                    <h2 class="Descripcion__Titulo">split samnsung inverter 3000f</h2>
+                    <p class="Descripcion__Parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla fugit harum pariatur incidunt
+                         voluptatibus porro non commodi cupiditate vitae beatae. Ullam aut sapiente, aperiam libero expedita nam optio id nesciunt!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum non eius vitae corrupti, ratione nulla recusandae 
+                        itaque rem aliquid amet assumenda. Voluptates ratione, at repellat exercitationem odit aliquid laudantium labore!
+                    </p>
+                    <div class="precio__descuento">
+                         <div class="Precio__Carrito"> </div>
+                         <span class="descuento__precio"> </span>
+                        
+                    </div>   
+                    <div class="Precio__lista">  </div>
+
+                         
+                <div class="Carrito__Conteiner">
+                    <div class="Imput__Carrito">
+                        <div class="Imput__BtnMas BtnModificarCarrito" > + </div>
+                        <input class="Imput__Visor" type="text" value="1">
+                        <div class="Imput__BtnMenos BtnModificarCarrito" > - </div>
+                    </div>
+                    <button class="Carrito__Boton"> Carrito compra</button>
+                </div>    
+
+                </article>
+
+            </section>
+    
+                     <!-- MODAL -->
+
+                <div class="Modal__conteiner">
+                             <h2 class="Modal__Texto-Tarjeta"> Carrito Compra</h2>
+                             <div class="Modal__Separador"></div>
+
+                         <div class="Modal__info">
+
+                              <div class="imagen__Modal">
+                                  <img class="img__Modal" src="#">
+                              </div>
+
+                              <div class="Info__Modal">
+                                 <p class="Nombre__Producto-Modal">Smnsun Aire Acondicionado inverter 3000f</p>
+                                  <p class="Precio__Producto-Modal">$125 x 3 <span class="Precio__Total-Modal">$350</span></p>
+                              </div>
+
+                              <h2 class="Cerrar__Modal"> x </h2>   
+
+                         </div> 
+                         <div class="Modal__Btn">
+                              <button class="Comprar__Modal"> Continuar Comprar</button>
+                         </div>     
+
+                </div>
+            
+
+        </main>
+        <!-- <script src="../js/async-json.js" type="module" ></script> -->
+    <script src="../js/comprar-producto.js" type="module"></script>
+    <script  src="../js/barraDesplegable.js" type="module"></script>
+    <!-- <script src="../js/agregarGrilla.js" type="module"></script> -->
+        
+    
+</body>
+</html>

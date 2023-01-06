@@ -1,0 +1,50 @@
+[
+  {
+    "pid": "01",
+    "pimg": "#",
+    "pnombre": "bgh",
+    "pdescripcion": "aire acondicionado",
+    "pprecio": "48000"
+    
+  },
+  {
+    "pid": "02",
+    "pimg": "#",
+    "pnombre": "philips",
+    "pdescripcion": "calefaccion",
+    "pprecio": "4000"
+  },
+  {
+    "pid": "03",
+    "pimg": "#",
+    "pnombre": "sansung",
+    "pdescripcion": "aire acondicionado",
+    "pprecio": "58000"
+  },{
+    "pid": "01",
+    "pimg": "#",
+    "pnombre": "bgh",
+    "pdescripcion": "aire acondicionado",
+    "pprecio": "48000"
+  },
+
+  {
+    "pid": "02",
+    "pimg": "#",
+    "pnombre": "philips",
+    "pdescripcion": "calefaccion",
+    "pprecio": "4000"
+  },
+  {
+    "pid": "03",
+    "pimg": "#",
+    "pnombre": "sansung",
+    "pdescripcion": "aire acondicionado",
+    "pprecio": "58000"
+  }
+
+  
+
+ 
+
+]

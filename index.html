@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="./css/barraDesplegable.css">
+    <link rel="stylesheet" href="./css/sliderAutomatico.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&family=c:ital,wght@1,300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a8c2996f32.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="Encabezado__Menu">
+            <h3 class="Texto__Encabezado">Expertos en climatización</h3>
+        </div>
+       <div class="Menu__Container">
+        
+        <ul class="icon__Menu">
+            <div class="Btn__Menu"><i class="fa-solid fa-bars"></i></div>
+        </ul>
+        <div class="Logo__Empresa"><img class="Logo__Solter" src="img/logo/logoSolter.png" ></div>
+        <ul class="Items__Menu">
+            <li class="Productos__Menu"><a href="#" class="Texto__Desplegable">Nosotros</a></li>
+            <li class="Productos__Menu"><a href="#" class="Texto__Desplegable Btn-Submenu">Productos</a>
+                <ul class="Submenu__Productos">
+                    <li class="Productos__Menu"><a href="./html/Catalogo-Producto.html" class="Texto__Desplegable Desplegado">Aires Acondicionados</a></li>
+                    <li class="Productos__Menu"><a href="./html/Catalogo-Producto.html" class="Texto__Desplegable Desplegado">Equipos Centrales</a></li>
+                    <li class="Productos__Menu"><a href="./html/Catalogo-Producto.html" class="Texto__Desplegable Desplegado"> repuestos</a></li>
+                </ul>
+            </li>
+            <li class="Productos__Menu"><a href="#" class="Texto__Desplegable">Contacto</a></li>
+        
+        
+            </ul>
+           <ul class="Btn__Barra">
+                <div class="Btn__icon Buscar"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div class="Btn__icon Carrito"><i class="fa-solid fa-cart-shopping"></i></div>
+                <div class="Btn__icon Usuario"><i class="fa-solid fa-circle-user"></i></div>
+           </ul>
+        </div>
+        <div class="Separador__menu"></div>
+
+    </header>
+    <main>
+        <section>
+            <div class="contenedor__Silder">
+                <div class="Btn__Derecha"> > </div>
+                <div class="Btn__Izquierda"> <</div>
+                <div class="img"></div>     
+            </div>
+        </section>
+        <div class="Barra__Marcas"></div>
+        <section class="Enlace__Productos">
+            <div class="Contenedor__Enlace">
+                <ul class="Caja__Enlase EnlaceAireAcondicionado"><hi class="Texto__Nombre-Enlace" >Aire Acondicionado</hi></ul>
+                <ul class="Caja__Enlase EnlaceEquipoCentrales"><hi class="Texto__Nombre-Enlace" >Equipos Centrales</hi></ul>  
+                <ul class="Caja__Enlase EnlaceRepuestos"><hi class="Texto__Nombre-Enlace" >Repuestos</hi></ul>
+
+            </div>
+            
+        </section>
+    </main>
+     <script   src="./js/comprar-producto.js" type="module"></script>
+    <script   src="./js/barraDesplegable.js" type="module"></script>
+    <script   src="./js/sliderAutomatico.js" type="module"></script> 
+    <script   src="./js/agregarGrilla.js"  type="module"></script> 
+    <script   src="./js/async-json.js" type="module"></script>
+</body>
+</html>
