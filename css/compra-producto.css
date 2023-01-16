@@ -9,11 +9,23 @@ header,main{
 .Menu__Container{
     background:rgb(239, 239, 239);
 }
-.Galeria__Container{
+.container__compra{
     display: flex;
 }
-.Galeria{
+.Galeria__Container{
     width: 50%;
+    
+}
+
+.galeria__imgPrincipal{
+  background-position: center;
+  width:100%;
+  height:100%;
+  border-radius: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+    
 }
 
 .Galeria__Imagen-Container{
@@ -21,26 +33,28 @@ header,main{
     width: 80%;
     height: 20em;
     margin-top: 2em;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-left: 5%;
-    background: red;
+    /* background: red; */
     border-radius: 20px;
+    box-shadow: 2px 2px 3px 3px rgba(123, 87, 87, 0.482);
 
 }
 .Btn__Siguiente, .Btn__Previo{
     position: absolute;
-    background: rgba(245, 222, 179, 0.801);
+    background: rgba(246, 239, 225, 0.639);
     width: 1em;
     padding: 0.2em;
     border-radius: 10px;
     text-align: center;
-    margin-top: 9.4em;
+    margin-top: -10.5em;
     font-weight: bold;
     box-shadow: 2px 2px 4px rgb(73, 73, 73);
-    
+    color: rgba(51, 49, 49, 0.429);
 }
 .Btn__Siguiente{
    right: .4em;
+   
 }
 .Btn__Previo{
     left: .4em;
@@ -48,23 +62,21 @@ header,main{
 
 .galeria__Miniaturas{
     display: flex;
-    width: 50%;
+    width: 60%;
     height: 5em;
     justify-content: space-between;
-    margin-left: 20%;
+    margin-left: 15%;
     margin-top: 2em;
     
   
 }
 
 .Galeria__Miniatura{
-   background: red;
    width: 3em;
    height: 3em;
-   border: 2px solid black;
    border-radius: 8px;
+   box-shadow: 2px 2px 2px 2px rgba(96, 66, 66, 0.482);
   
-   
   
 }
 
@@ -251,12 +263,15 @@ margin-left: 1em;
         width: 100%;
         margin:none;
     }
+    
+    .container__compra{
+        display: block;
+    }
+    .Galeria__Container{
+   width: 100%;
 
-   .Galeria__Container{
-   display: block;
 
-
-   }
+   } 
     .Galeria{
         display: block;
         width: 100%;
