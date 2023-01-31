@@ -41,23 +41,7 @@ header,main{
 
 }
 .Btn__Siguiente, .Btn__Previo{
-    position: absolute;
-    background: rgba(246, 239, 225, 0.639);
-    width: 1em;
-    padding: 0.2em;
-    border-radius: 10px;
-    text-align: center;
-    margin-top: -10.5em;
-    font-weight: bold;
-    box-shadow: 2px 2px 4px rgb(73, 73, 73);
-    color: rgba(51, 49, 49, 0.429);
-}
-.Btn__Siguiente{
-   right: .4em;
-   
-}
-.Btn__Previo{
-    left: .4em;
+    display: none;
 }
 
 .galeria__Miniaturas{
@@ -77,9 +61,12 @@ header,main{
    border-radius: 8px;
    box-shadow: 2px 2px 2px 2px rgba(96, 66, 66, 0.482);
   
-  
 }
 
+.activa{
+    
+    border: solid rgb(238, 93, 48);;
+}
 
 .Descripcion{
    width: 50%;
@@ -280,9 +267,30 @@ margin-left: 1em;
       
         display: block;
         margin: 2em auto;
-       
-
     }
+
+    .Btn__Siguiente, .Btn__Previo{
+        display: flex;
+        position: absolute;
+        background: rgba(246, 239, 225, 0.639);
+        width: 1em;
+        padding: 0.2em;
+        border-radius: 10px;
+        text-align: center;
+        margin-top: -10.5em;
+        font-weight: bold;
+        box-shadow: 2px 2px 4px rgb(73, 73, 73);
+        color: rgba(51, 49, 49, 0.429);
+    }
+    .Btn__Siguiente{
+        right: .4em;
+        
+     }
+     .Btn__Previo{
+         left: .4em;
+     }
+
+
     .Galeria__Miniatura{
       display: none;
 

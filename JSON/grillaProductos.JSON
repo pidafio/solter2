@@ -1,46 +1,94 @@
 [
   {
+    "pcategoria":"Aire__Acondicionado",
+    "pmarca":"bgh",
     "pid": "01",
-    "pimg": "#",
-    "pnombre": "bgh",
-    "pdescripcion": "aire acondicionado",
-    "pprecio": "48000"
-    
+    "pimg": [
+      {"0":"../img/imagenes/aire bgh.webp"},
+      {"1":"../img/imagenes/1.jpg"},
+      {"2":"../img/imagenes/2.jpg"},
+      {"3":"../img/imagenes/3.jpg"}
+    ],
+    "pnombre": "bgh 3500",
+    "pdescripcion": "aire acondicionado Lorem ipsum dolor, sit amet consectetur adipisi cing elit. Nulla fugit harum pariatur incidunt voluptatibus porro non commodi cupiditate vitae beatae. Ullam aut sapiente, aperiam libero expedita nam optio id nesciunt!",
+    "pprecio": 48000,
+    "pdescuento": 30
   },
-  {
+  { 
+    "pcategoria":"Aire__Acondicionado",
+    "pmarca":"samnsung",
     "pid": "02",
-    "pimg": "#",
-    "pnombre": "philips",
-    "pdescripcion": "calefaccion",
-    "pprecio": "4000"
+    "pimg": [
+      {"0":"../img/imagenes/samnsung3.webp"},
+      {"1":"../img/imagenes/1.jpg"},
+      {"2":"../img/imagenes/2.jpg"},
+      {"3":"../img/imagenes/3.jpg"}
+    ],
+    "pnombre": "samnsung cdd3",
+    "pdescripcion": "aire acondicionado Lorem ipsum dolor, sit amet consectetur adipisi cing elit. Nulla fugit harum pariatur incidunt voluptatibus porro non commodi cupiditate vitae beatae. Ullam aut sapiente, aperiam libero expedita nam optio id nesciunt!",
+    "pprecio": 4000,
+    "pdescuento": 30
   },
   {
+    "pcategoria":"Equipos__Centrales",
+    "pmarca":"carrier",
     "pid": "03",
-    "pimg": "#",
-    "pnombre": "sansung",
-    "pdescripcion": "aire acondicionado",
-    "pprecio": "58000"
-  },{
-    "pid": "01",
-    "pimg": "#",
-    "pnombre": "bgh",
-    "pdescripcion": "aire acondicionado",
-    "pprecio": "48000"
+    "pimg":[
+      {"0":"../img/imagenes/equipo central carrier.jpg"},
+      {"1":"../img/imagenes/1.jpg"},
+      {"2":"../img/imagenes/2.jpg"},
+      {"3":"../img/imagenes/3.jpg"}
+    ],
+    "pnombre": "carrier 344",
+    "pdescripcion": "Equipo Central Lorem ipsum dolor, sit amet consectetur adipisi cing elit. Nulla fugit harum pariatur incidunt voluptatibus porro non commodi cupiditate vitae beatae. Ullam aut sapiente, aperiam libero expedita nam optio id nesciunt!",
+    "pprecio": 58000,
+    "pdescuento": 30
+  },
+  {
+    "pcategoria":"Equipos__Centrales",
+    "pmarca":"trane",
+    "pid": "04",
+    "pimg":[
+      {"0":"../img/imagenes/equipo central trane.jpeg"},
+      {"1":"../img/imagenes/1.jpg"},
+      {"2":"../img/imagenes/2.jpg"},
+      {"3":"../img/imagenes/3.jpg"}
+    ],
+    "pnombre": "trane sw45",
+    "pdescripcion": "Equipo Central Lorem ipsum dolor, sit amet consectetur adipisi cing elit. Nulla fugit harum pariatur incidunt voluptatibus porro non commodi cupiditate vitae beatae. Ullam aut sapiente, aperiam libero expedita nam optio id nesciunt!",
+    "pprecio": 48000,
+    "pdescuento": 30
   },
 
-  {
-    "pid": "02",
-    "pimg": "#",
-    "pnombre": "philips",
-    "pdescripcion": "calefaccion",
-    "pprecio": "4000"
+  { 
+    "pcategoria":"Repuestos",
+    "pmarca":"caivar",
+    "pid": "05",
+    "pimg":[
+      {"0":"../img/imagenes/resistencia.webp"},
+      {"1":"../img/imagenes/1.jpg"},
+      {"2":"../img/imagenes/2.jpg"},
+      {"3":"../img/imagenes/3.jpg"}
+    ],
+    "pnombre": "resistencia",
+    "pdescripcion": "Repuesto Lorem ipsum dolor, sit amet consectetur adipisi cing elit. Nulla fugit harum pariatur incidunt voluptatibus porro non commodi cupiditate vitae beatae. Ullam aut sapiente, aperiam libero expedita nam optio id nesciunt!",
+    "pprecio": 4000,
+    "pdescuento": 30
   },
-  {
-    "pid": "03",
-    "pimg": "#",
-    "pnombre": "sansung",
-    "pdescripcion": "aire acondicionado",
-    "pprecio": "58000"
+  { 
+    "pcategoria":"Repuestos",
+    "pmarca":"caivar",
+    "pid": "06",
+    "pimg":[
+      {"0":"../img/imagenes/placa.webp"},
+      {"1":"../img/imagenes/1.jpg"},
+      {"2":"../img/imagenes/2.jpg"},
+      {"3":"../img/imagenes/3.jpg"}
+    ],
+    "pnombre": "placa control",
+    "pdescripcion": "Repuesto Lorem ipsum dolor, sit amet consectetur adipisi cing elit. Nulla fugit harum pariatur incidunt voluptatibus porro non commodi cupiditate vitae beatae. Ullam aut sapiente, aperiam libero expedita nam optio id nesciunt!",
+    "pprecio": 58000,
+    "pdescuento": 30
   }
 
   

@@ -20,19 +20,23 @@
             <h3 class="Texto__Encabezado">Expertos en climatización</h3>
         </div>
        <div class="Menu__Container">
+
+
+        <!-- Btn__Menu -->
         
         <ul class="icon__Menu">
-            <div class="Btn__Menu"><i class="fa-solid fa-bars"></i></div>
+            <div class="Btn__Menu Desplegado"><i class="fa-solid fa-bars"></i></div>
         </ul>
         <div class="Logo__Empresa"><a href="../index.html" ><img class="Logo__Solter" src="../img/logo/logoSolter.png" ></a></div>
         <ul class="Items__Menu">
             <li class="Productos__Menu"><a href="#" class="Texto__Desplegable">Nosotros</a></li>
-            <li class="Productos__Menu"><a href="#" class="Texto__Desplegable Btn-Submenu">Productos</a>
+            <li class="Productos__Menu"><a href="#" class="Texto__Desplegable Btn-Submenu">Productos <i class="fa-solid fa-chevron-down"></i></a>
                 <ul class="Submenu__Productos">
-                    <li class="Productos__Menu"><a href="../html/Catalogo-Producto.html" class="Texto__Desplegable Desplegado">Aires Acondicionados</a></li>
-                    <li class="Productos__Menu"><a href="../html/Catalogo-Producto.html" class="Texto__Desplegable Desplegado">Equipos Centrales</a></li>
-                    <li class="Productos__Menu"><a href="../html/Catalogo-Producto.html" class="Texto__Desplegable Desplegado"> repuestos</a></li>
-                </ul>
+                    <li id="Todos" class="Btn__Menu Desplegado"> Todos</li>
+                    <li id="Aire__Acondicionado" class="Btn__Menu Desplegado">Aires Acondicionados</li>
+                    <li id="Equipos__Centrales" class="Btn__Menu Desplegado">Equipos Centrales</li>
+                    <li id="Repuestos" class="Btn__Menu Desplegado"> Repuestos</li>
+               </ul>
             </li>
             <li class="Productos__Menu"><a href="#" class="Texto__Desplegable">Contacto</a></li>        
             </ul>
@@ -46,23 +50,14 @@
         
     </header>
 
-    <main> 
-      <section  class="contenedor__grillas">
-        <!-- <div class="grilla__Procuto">
-            <div class="img__paraGrilla" ><img class="imgGrilla" src="#"></div>
-            <div class="grilla__descripcion">  Descripcion: <p class="texto__grilla-descripcion"> 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque 
-                sunt neque quam totam sit,</p></div>
-                <h2 class="grilla__precio">Precio </h2>
-            <button class="grilla__btnComprar">COMPRAR</button>
-        </div>  -->
-        
-     
-      </section>
+    <main id="grilla__contenedor" class="grilla__contenedor"> 
+      <section id="contenedor__grillas" class="contenedor__grillas"></section>
+       
     </main> 
-    <script src="../js/async-json.js" type="module" ></script>
-    <!-- <script src="../js/comprar-producto.js" type="module"></script> -->
+    
     <script  src="../js/barraDesplegable.js" type="module"></script>
     <script src="../js/agregarGrilla.js" type="module"></script>
+    <!-- <script src="../js/comprar-producto.js" type="module"></script> -->
+   
 </body>
 </html>

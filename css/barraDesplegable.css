@@ -24,6 +24,16 @@
     
 }
 
+
+.Btn__Menu{
+  font-size:1em;
+  font-family: Ubuntu;
+  padding: .5em;
+  margin-bottom: .2em;
+
+
+}
+
 .Items__Menu .Texto__Desplegable{
     padding-left: 2em;
 }
@@ -31,7 +41,7 @@
 .Items__Menu{
     position: relative;
     margin-top: 1.9em;
-    margin-left: 11em;
+   
 }
 
 .Submenu__Productos{   
@@ -39,8 +49,11 @@
     height: 0;
     overflow: hidden;
     transition: all 0.3s; 
-    margin: 0 -1.2em 0 -1.7em;
+    margin: .48em -1.2em 0 -1.7em;
     
+}
+.fa-chevron-down{
+    color:  rgb(240, 85, 42);;
 }
 
 
@@ -91,16 +104,23 @@
         transition: all 0.3s;
         margin-left: -.7em;
         
-       
-    }
-    
+    }    
+   
     .Mostrar{
+        margin-top: 4.38em;
         margin-left: 0;
         display: inline-block;
         z-index: 2;
         
         
     }
-    
+    .Btn__Menu{
+        font-size:.8em;
+        font-family: Ubuntu;
+        padding: .2em;
+        /* margin-bottom: .2em; */
+      
+      
+      }
 
 }

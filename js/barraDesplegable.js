@@ -1,30 +1,41 @@
-const BtnMenu = document.querySelector(".Btn__Menu");
+const BtnMenu = document.querySelectorAll(".Desplegado");
 const Menu =document.querySelector(".Items__Menu");
+const submenuProducto =document.querySelector(".Submenu__Productos")
+const BtnSubmenu = document.querySelectorAll(".Btn-Submenu");
 
-BtnMenu.addEventListener("click", function(){
-    Menu.classList.toggle("Mostrar")
+//  ----BOTON BARRA LATERAL RESPONSIVE-----
+
+BtnMenu.forEach(botones =>{
+   botones.addEventListener("click",()=>{
+      Menu.classList.toggle("Mostrar")
+      activarDesactivar(submenuProducto)
+    })
 });
 
+  //-----   BOTONES DESPLEGABLES------   
 
-const BtnSubmenu = document.querySelectorAll(".Btn-Submenu");
-        
-for( let i=0; i< BtnSubmenu.length ; i++){
-     BtnSubmenu[i].addEventListener("click", function (){
+   BtnSubmenu.forEach(botones=>{      
+    botones.addEventListener("click", function (){         
         const SubMenu = this.nextElementSibling;
-        console.log(SubMenu)
         const heightSubMenu = SubMenu.scrollHeight;
-         
-         if(SubMenu.classList.contains("desplegar")){
-            SubMenu.classList.remove("desplegar");
-            SubMenu.removeAttribute("style");
+        activarDesactivar(SubMenu,heightSubMenu)              
+    })        
+}) 
 
-         }else{
-            SubMenu.classList.add("desplegar");
-            SubMenu.style.height= heightSubMenu +"px";
 
-         }
+// ----FUNCION EXTENDER Y GUARDAR LISTADOS-----
 
-    })       
+function activarDesactivar(x , y){
+   if(x.classList.contains("desplegar")){
+      x.classList.remove("desplegar");
+      x.removeAttribute("style");
+    
+   }else{
+      x.classList.add("desplegar");
+      x.style.height= y +"px";
+     
+   }
+
 }
 
 
